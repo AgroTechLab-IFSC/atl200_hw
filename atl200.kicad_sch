@@ -1,0 +1,102 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "70f4b7a7-bc92-4e08-aa87-1db70636b26b")
+	(paper "A4")
+	(title_block
+		(title "ATL-200 (Multiparametric Station)")
+		(date "2025-06-08")
+		(rev "v0.1.0")
+		(company "AgroTechLab (Agribusiness Technology Development Laboratory)")
+		(comment 1 "IFSC (Federal Institute of Santa Catarina)")
+		(comment 2 "Author: Robson Costa (robson.costa@ifsc.edu.br)")
+		(comment 3 "Licensed under CC-BY-SA 4.0")
+		(comment 4 "Max. peak supply current: XXX mA")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 125.095 53.34)
+		(end 188.595 67.31)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 9 23 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 30cbdb35-4118-4ad3-bfa1-37d9b198dfbb)
+	)
+	(rectangle
+		(start 39.37 34.29)
+		(end 114.935 99.06)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 9 23 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e70ce529-2b5c-4909-98f2-e124601ab255)
+	)
+	(text "ATL-200 (Multiparametric Station)"
+		(exclude_from_sim no)
+		(at 40.005 36.957 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 9 23 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "69b92e28-d95b-4288-b988-44facce5a3dd")
+	)
+	(text "Air Temperature: -40ºC ~ 85ºC (0,01ºC / ±1ºC)\nAir Humidity: 0% ~ 100% (0,008% / ±3%)\nAtmospheric Pressure: 300hPa ~ 1100hPa (0,18hPa / ±1hPa)\nI2C Addr: 0x76 (SDO Low)\n          0x77 (SDO High)"
+		(exclude_from_sim no)
+		(at 125.984 66.421 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 9 23 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "855249b8-fb2c-462d-8e28-6f8edb6b533c")
+	)
+	(text "BME280"
+		(exclude_from_sim no)
+		(at 125.73 56.007 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 9 23 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cde89e6e-305f-42f8-b287-6d9e8a51e4ff")
+	)
+	(text "Internal Modules:\n   - MCU (ESP32-S3)\n   - XL4005 (Voltage Regulator - Step Down)\n   - Voltage Sensor (power supply voltage)\n   - HW-519 (RS-485)\n   - RGB LED\n   - RAK3272S (LoRaWAN module)\n   - SIM7070G (LTE module)\n\nExternal Modules:\n   - BME-280 (I2C port)\n      - Air Temperature (ºC)\n      - Air Humidity (%)\n      - Atmospherical Pressure (mmHg)\n   - Pluviometer (pulse port)\n      - Rain Amount (mm)\n   - Anemometer (pulse port)\n      - Wind Speed (m/sec. or Km/h)\n   - Windsock (ADC port)\n      - Wind Direction (N, NE, E, SE, S, SW, W, NW)\n   - ADC 4mA - 20mA (4x ports)\n   - Soil Sensor (RS-485 port)\n      - Temperature (%)\n      - Moisture (ºC)\n      - PH (index)\n      - Conductivity (µs/cm)\n      - Nitrogen (mg/Kg)\n      - Phosphorus (mg/Kg)\n      - Potassium (mg/Kg)"
+		(exclude_from_sim no)
+		(at 41.783 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 9 23 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d621c6ad-d91a-4a9d-ac5f-dc2960448fb8")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
