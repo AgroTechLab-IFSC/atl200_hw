@@ -411,6 +411,10 @@
     [
       "70f4b7a7-bc92-4e08-aa87-1db70636b26b",
       "Root"
+    ],
+    [
+      "8e534a34-9e03-4782-986f-b9a89d7dc3ae",
+      "Mini PCI Express"
     ]
   ],
   "text_variables": {}

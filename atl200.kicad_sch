@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ATL-200 (Multiparametric Station)")
-		(date "2025-06-08")
+		(date "2025-06-09")
 		(rev "v0.1.0")
 		(company "AgroTechLab (Agribusiness Technology Development Laboratory)")
 		(comment 1 "IFSC (Federal Institute of Santa Catarina)")
@@ -92,6 +92,49 @@
 			(justify left bottom)
 		)
 		(uuid "d621c6ad-d91a-4a9d-ac5f-dc2960448fb8")
+	)
+	(sheet
+		(at 181.61 149.86)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e534a34-9e03-4782-986f-b9a89d7dc3ae")
+		(property "Sheetname" "Mini PCI Express"
+			(at 181.61 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atl200_mpcie.kicad_sch"
+			(at 181.61 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atl200"
+				(path "/70f4b7a7-bc92-4e08-aa87-1db70636b26b"
+					(page "2")
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"

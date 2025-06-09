@@ -55,10 +55,15 @@ The current version of the ATL-200 has the following features:
    - Air Humidity (0 ~ 100 %);
    - Atmospheric Pressure (300 ~ 1100 hPa);
 
-### ADC Board
- - ADC (ADS1115)
-   - 16 bits resolution;
-   - 4 channels (4mA ~ 20mA / 0V ~ 10V);
+### Mini PCI Express interface
+
+The ATL-200's Mini PCI Express interface is designed to be compatible with the following WWAN LTE and LoRa/LoRAWAN communication cards:
+ - Quectel BG95-M3 (LTE Cat-M1 / LTE Cat-NB2 / EGPRS / GNSS);
+ - Quectel EC21 (LTE Cat-1 / EGPRS/ GNSS);
+ - SIMCon SIM7070 (LTE Cat-M1 / LTE Cat-NB1 / EGPRS / GNSS);
+ - Telit ME910C1 (LTE Cat-M1 / LTE Cat-NB1 / EGPRS / GNSS);
+ - Telit ME910G1 (LTE Cat-M1 / LTE Cat-NB2 / EGPRS / GNSS);
+ - ATL-3172 LoRaWAN module (based on RAK-3172);
 
 ## 3D Images
 ![Image 1](./atl200_1.png "3D image 1")
