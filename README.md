@@ -1,6 +1,6 @@
 ![GitHub Release](https://img.shields.io/github/v/release/agrotechlab-ifsc/atl200_hw)
 ![GitHub Platform](https://img.shields.io/badge/Platform-KiCad-blue)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/agrotechlab-ifsc/at200_hw)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/agrotechlab-ifsc/atl200_hw)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/agrotechlab-ifsc/atl200_hw)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/agrotechlab-ifsc/atl200_hw)
 ![GitHub followers](https://img.shields.io/github/followers/agrotechlab-ifsc)
